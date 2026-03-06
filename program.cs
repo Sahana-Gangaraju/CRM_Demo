@@ -32,3 +32,6 @@ app.MapControllerRoute(
     .WithStaticAssets();
 
 app.Run();
+
+
+The type 'CRMSystem.Data.CRMDbContext' cannot be used as type parameter 'TContext' in the generic type or method 'EntityFrameworkServiceCollectionExtensions.AddDbContext<TContext>(IServiceCollection, Action<DbContextOptionsBuilder>?, ServiceLifetime, ServiceLifetime)'. There is no implicit reference conversion from 'CRMSystem.Data.CRMDbContext' to 'Microsoft.EntityFrameworkCore.DbContext'.
