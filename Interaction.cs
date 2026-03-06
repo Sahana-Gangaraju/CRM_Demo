@@ -19,3 +19,4 @@ namespace CRMSystem.Models
         public DateTime CreatedDate { get; set; }
     }
 }
+'Interaction' is an ambiguous reference between 'CRMSystem.Models.Interaction' and 'Microsoft.VisualBasic.Interaction'
